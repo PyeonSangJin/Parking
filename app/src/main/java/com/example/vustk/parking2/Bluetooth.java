@@ -187,7 +187,7 @@ public class Bluetooth extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "연결할 장치를 선택하지 않았습니다.\n 직접결제를 하세요.", Toast.LENGTH_LONG).show();
                     isConnectBt = false;
                 } else { // 연결할 장치를 선택한 경우, 선택한 장치와 연결을 시도함.
-                    connectToSelectedDevice(items[item].toString());
+                //    connectToSelectedDevice(items[item].toString());
                 }
             }
             //////////////////////////////////////////////////////////////////////////////
